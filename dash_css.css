@@ -1,0 +1,119 @@
+@@font-face {
+  font-family: Niconne;
+  src: url('../fonts/NICONNE-REGULAR.TTF');
+  font-weight: 400;
+}
+
+@@font-face {
+  font-family: Raleway;
+  src: url('../fonts/RALEWAY-BLACK.TTF');
+  font-weight: 400;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-image:URL("bg.jpg");
+  
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+
+}
+
+.homePage{
+
+}
+
+.homePage .header{
+  height: 75px;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.header .logo{
+  width: 60%;
+  background-color: #222;
+  height: inherit;
+  background: url('fiesta.png');
+  background-repeat: no-repeat;
+  background-size: 22%;
+}
+
+.header2{
+  height: 100px;
+  text-align: center;
+  font-size: 55px;
+  color: #000;
+  font-family: Niconne;
+  letter-spacing: 1px;
+  margin-top: 80px;
+}
+
+.lottery{
+  font-family: Raleway;
+  font-size: 30px;
+  text-align: center;
+}
+
+.lottery #number{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Open Sans;
+}
+
+.personalDetails{
+	float:left;
+  margin-top: 100px;
+  margin-left: 100px;
+  display: grid;
+  font-family: Raleway;
+  font-size: 25px;
+  grid-template-rows: repeat(3,1fr);
+}
+a{
+	 text-decoration:none;
+	 color:white;
+	 font-family: Raleway;
+	 font-size:30px;
+	 
+	 
+}
+.logout{
+	float:left;
+	border:1px solid none;
+	width:100px;
+	height:40px;
+	padding-left:10px;
+	background:#32bf5c;
+	 text-decoration:none;
+     font-family: Raleway;
+	color:white;
+	margin-top:150px;
+	margin-left:500px;
+}
+#name{
+  padding: 10px;
+}
+
+#mail{
+  padding: 10px;
+}
+
+#mobile{
+  padding: 10px;
+}
+
+.footer{
+  margin-top: 40px;
+  margin-bottom: 0;
+  background-color: #222;
+  color: #fff;
+  height: 70px;
+  width: 100%;
+}
